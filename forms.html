@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <link rel="icon" type="image/x-icon" href="./images/home-cars.webp" />
+    <link href="./css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="header">
+      <h3 class="logo">
+        <a href="index.html"> Cars </a>
+      </h3>
+      <ul class="nav">
+        <li><a href="honda.html">Honda</a></li>
+        <li><a href="maruthi.html">Maruthi</a></li>
+        <li><a href="tata.html">Tata</a></li>
+      </ul>
+    </div>
+    <section>
+      <h1>Forms</h1>
+      <form method="GET">
+        <label for="username">Enter your name</label>
+        <input
+          type="text"
+          name="username"
+          id="username"
+          placeholder="Enter You Name"
+          value="Solomon"
+          readonly
+        /><br /><br />
+        <label for="age">Enter your age</label>
+        <input
+          type="number"
+          name="age"
+          id="age"
+          placeholder="Enter You Age"
+          value=""
+        /><br /><br />
+        <label for="marriedornot">Are You Married ?</label>
+        <select name="marriedornot" id="marriedornot">
+          <option value="0">Select you status</option>
+          <option value="yes" disabled>Yes</option>
+          <option value="no">No</option>
+          <option value="divorced">Divorced</option>
+        </select>
+        <br /><br />
+        <label>Are You Married ?</label>
+        <input type="radio" name="marriedornotcheckbox" value="yes" id="myes" />
+        <label for="myes">Yes</label>
+        <input type="radio" name="marriedornotcheckbox" value="no" id="mno" />
+        <label for="mno">No</label>
+        <input
+          type="radio"
+          name="marriedornotcheckbox"
+          value="divorced"
+          id="mdivorced"
+        />
+        <label for="mdivorced">Divorced</label> <br /><br />
+        <label>What education you have completed ?</label>
+        <input type="checkbox" name="school" value="school" id="school" />
+        <label for="school">school</label>
+        <input type="checkbox" name="ug" value="ug" id="ug" />
+        <label for="ug">ug</label>
+        <input type="checkbox" name="pg" value="pg" id="pg" />
+        <label for="pg">pg</label> <br /><br />
+
+        <input type="color" name="color" value="" /> <br /><br />
+        <input type="date" /> <input type="submit" value="Sent" />
+        <!--
+        <input type="button">
+        <input type="checkbox">
+        <input type="color">
+        <input type="date">
+        <input type="datetime-local">
+        <input type="email">
+        <input type="file">
+        <input type="hidden">
+        <input type="image">
+        <input type="month">
+        <input type="number">
+        <input type="password">
+        <input type="radio">
+        <input type="range">
+        <input type="reset">
+        <input type="search">
+        <input type="submit">
+        <input type="tel">
+        <input type="text">
+        <input type="time">
+        <input type="url">
+        <input type="week">
+        -->
+      </form>
+    </section>
+  </body>
+</html>
